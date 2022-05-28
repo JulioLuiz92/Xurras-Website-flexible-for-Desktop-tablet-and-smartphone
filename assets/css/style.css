@@ -10,6 +10,7 @@ body {
     padding: 10px;
 }
 
+/* background color using a CSS linear-gradient function; clean and reusable values for a color scheme */
 h1 {
     text-align: center;
     font-size: 150px;
@@ -20,6 +21,7 @@ h1 {
         word-break: break-word;    
 }
 
+/* use of semantic HTML elements and proper indentation; */
 header p {
     text-align: center;
     color: white;   
@@ -64,6 +66,7 @@ header figure img {
     flex:  1 0 100%;
 }
 
+/* animation using the CSS transition property */
 .card h2 {
     border: 2px white solid;
     color: white;
@@ -84,6 +87,8 @@ header figure img {
 .card:hover article, .card:hover h2 {
     box-shadow: inset 0px 0px 8px rgb(226, 9, 9), 0 0 15px rgb(243, 207, 4);
 }
+
+/* background color using a CSS linear-gradient function */
 .card article {
     border-style: dashed;
     border-color: white;
@@ -136,7 +141,8 @@ header figure img {
 
 }
 
-.card p::selection {
+/* highlight a code snippet by clicking on it */
+.card h3::selection {
     background: black;
 }
 
@@ -146,6 +152,7 @@ h3 {
     font-size: 40px;
 }
 
+/* flexbox and media queries created a responsive grid layout */
 @media screen and (max-width: 992px) {
 
     .column {
